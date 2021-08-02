@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #d0d2d3;
+}
+
+p {
+    color: #363636;
+    font-size: 160%;
+    line-height: normal;
+    padding: 3%;
+    text-indent: 2%;
+    text-align: justify;
+} 
+
+h3 {
+     font-size: 175%;
+     line-height: 155%;
+     font-weight: 500;
+     color: #363636;
+     text-align: center;
+     text-transform: uppercase;
+     padding: 0%;
+}
+
+a {
+    color: #363636;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+a:hover {
+     color: #ffffff
+}
+
+img {
+     display: block;
+     margin: 0 auto;
+     max-width: 100%;
+     height: auto;
+     width: auto;
+     margin-bottom: -4px;
+}
+
+#wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ 
+#banner-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 0 3% 0;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+}
+
+header #logo img {
+    margin: 20px;
+    float: left;
+    width: 75px;
+}
+
+nav {
+    float: right;
+    padding: 25px 20px 0 0;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul li {
+    font-size: 150%;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+}
+
+.current {
+    color: rgb(0, 0, 0);
+}
+
+.one-third {
+    width: auto;
+    padding: 10px;
+    text-align: justify;
+}
+
+.two-third {
+    width: 50%;
+    float: left;
+    padding: 50px;
+    text-align: center;
+}
+
+.sidebar {
+    float: right;
+    margin: 0 auto;
+    width: 30%;
+    height: auto;
+    padding: 1%;
+}
+
+.one-third-padding {
+    width: 29%;
+    float: left;
+    margin: 2% 2%;
+}
+
+.clarfix-padding {
+    clear: both;
+    padding: 2%;
+}
+
+footer {
+    background: rgb(0, 0, 0);
+    width: 100%;
+    overflow: auto;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font: 160%;
+    line-height: 155%;
+    margin: 0;
+}
+
+#mapa {
+    float: right;
+    padding: 10%;
+}
+
+@media screen and (max-width: 760px) {
+    p {
+        font-size: 130%;
+    }
+    h3 {
+        font-size: 150%;
+    }
+    header {
+        height: 80px;
+        position: relative;
+    }
+    header #logo {
+        margin: 15px 0 20px -25px;
+    }
+    nax:hover ul {
+        display: block;
+    }
+    nav li {
+        text-align: center;
+        width: 100%;
+    }
+    .one-third {
+        float: left;
+        width: 100%;
+    }
+}
+
+
+
+
+
+

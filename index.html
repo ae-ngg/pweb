@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>AGE SERVICE</title>
+        <!--SLIDER-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <!--ESTILOS-->
+        <link rel="stylesheet" href="css/style.css">       
+    </head>
+
+    <body>
+        <div id="wrapper">
+            
+            <!--BANNER-->
+            <div id="banner-wrapper">
+
+                <header>
+                    <div class="header-inner">
+                        <a href="index.html" id="logo">
+                            <img src="img/pics/logo.png">
+                        </a>
+                        <nav>
+                             <ul>
+                               <li>
+                                   <a href="index.html" class="current">Inicio</a>
+                               </li> 
+                               <li>
+                                   <a href="#servicio">Servicios</a>
+                               </li>                   
+                               <li>
+                                   <a href="#nosotros">Nosotros</a>
+                               </li>
+                               <li>
+                                   <a href="#contacto">Contacto</a>
+                               </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+                
+                <section class="slide-wrap">
+                    <ul class="slider1">
+                        <li><img src="img/slider/slider1.jpg"></li>
+                        <li><img src="img/slider/slider2.jpg"></li>
+                        <li><img src="img/slider/slider3.jpg"></li>
+                    </ul>
+                </section>
+
+            </div>
+        </div>
+
+        <div class="clearfix-padding"></div>
+
+        <!--SERVICIOS-->
+        <div class="one-third-padding" id="servicio">
+            <h3>Nuestros Servicios</h3>
+            <img src="img/pics/image1.png">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, perferendis!</p>
+        </div> 
+
+        <div class="one-third-padding" id="servicio">
+            <h3>Nuestros Servicios</h3>
+            <img src="img/pics/image2.png">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloribus.</p>
+        </div>
+
+        <div class="one-third-padding" id="servicio">
+            <h3>Nuestros Servicios</h3>
+            <img src="img/pics/image3.png">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, culpa.</p>
+        </div>
+
+        <div class="clearfix-padding"></div>
+
+        <section class="one-third" id="nosotros">
+          <h3>Quiénes somos...</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              In labore maxime omnis quae illum fugit amet nemo delectus 
+              voluptates? Labore animi ea ex. Accusamus nihil sapiente non, 
+              facere officia cum earum provident. Alias placeat nobis in fugiat 
+              nihil praesentium dicta eligendi. Accusamus doloremque repudiandae 
+              fugit perferendis soluta minima cumque debitis?</p>
+        </section>
+
+        <section class="two-third" id="contacto">
+          <h3>Estemos en contacto!</h3>
+          
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+           Repellat nemo, consequuntur doloribus voluptatem officiis labore 
+           est odit et distinctio ipsam in non obcaecati error! Nulla incidunt quasi 
+           vel earum possimus.</p>
+        </section>
+
+        <footer>
+            <p>
+                &copy; AGE SERVICE LTDA.
+            </p>
+        </footer>
+
+        <!--SCRIPTS-->
+        <script>
+            $(document).ready(function(){
+                $('.slider1').bxSlider({
+                    mode: 'fade'
+                })
+            })
+            $(document).ready(function(){
+                $('.slider2').bxSlider({
+                    mode: 'fade'
+                })
+            })
+            $(document).ready(function(){
+                $('.slider3').bxSlider({
+                    mode: 'fade'
+                })
+            })
+        </script>
+
+    </body>
+
+</html>
+
